@@ -1,5 +1,12 @@
 import DashboardLayout from 'src/pages/Layout/DashboardLayout.vue';
 import AuthLayout from 'src/pages/Pages/AuthLayout.vue';
+
+
+import HomePageLayout from 'src/pages/Pages/LandingPage/HomePageLayout.vue'; //cryptodeveloper
+const HomePage = () => import('src/pages/Pages/LandingPage/HomePage.vue'); //cryptodeveloper
+
+
+
 // GeneralViews
 import NotFound from 'src/pages/GeneralViews/NotFoundPage.vue';
 
@@ -244,12 +251,29 @@ let authPages = {
   ]
 };
 
+
+let LandingPage = {
+  path: '/',
+  component: HomePageLayout,
+  name: 'HomePage',
+  children: [
+    {
+      path: '/Home',
+      name: 'Home',
+      component: HomePage
+    },
+  ]
+};
+
+
+
 const routes = [
   {
     path: '/',
     redirect: '/dashboard',
     name: 'Home'
   },
+  LandingPage, // only for landingPage
   componentsMenu,
   formsMenu,
   tablesMenu,
