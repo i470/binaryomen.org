@@ -76,7 +76,7 @@ export default {
           className: 'event-azure'
         },
         {
-          title: 'Click for Creative Tim',
+          title: 'Click for Binary Omen',
           start: new Date(y, m, 21),
           end: new Date(y, m, 22),
           url: 'http://www.creative-tim.com/',
