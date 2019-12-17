@@ -1,0 +1,36 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "binaryomenorg-dev-20191217132542-authRole",
+			"UnauthRoleArn": "arn:aws:iam::851182499835:role/binaryomenorg-dev-20191217132542-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::851182499835:role/binaryomenorg-dev-20191217132542-authRole",
+			"Region": "us-east-1",
+			"DeploymentBucketName": "binaryomenorg-dev-20191217132542-deployment",
+			"UnauthRoleName": "binaryomenorg-dev-20191217132542-unauthRole",
+			"StackName": "binaryomenorg-dev-20191217132542",
+			"StackId": "arn:aws:cloudformation:us-east-1:851182499835:stack/binaryomenorg-dev-20191217132542/044dd690-2103-11ea-898a-0e403b617781"
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/binaryomenorg-dev-20191217132542-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2019-12-17T19:41:01.638Z",
+			"output": {
+				"CloudFrontSecureURL": "https://d2pz08zjhzr163.cloudfront.net",
+				"S3BucketSecureURL": "https://binaryomenorg-20191217132648-hostingbucket-dev.s3.amazonaws.com",
+				"CloudFrontOriginAccessIdentity": "EV0F37J9Y2E27",
+				"WebsiteURL": "http://binaryomenorg-20191217132648-hostingbucket-dev.s3-website-us-east-1.amazonaws.com",
+				"CloudFrontDistributionID": "E2YDPTT7Z1GHIK",
+				"Region": "us-east-1",
+				"HostingBucketName": "binaryomenorg-20191217132648-hostingbucket-dev",
+				"CloudFrontDomainName": "d2pz08zjhzr163.cloudfront.net"
+			},
+			"lastPushDirHash": "Z8S964fisXOks5uYfwD4ge9Fni8="
+		}
+	}
+}
