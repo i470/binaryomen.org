@@ -1,18 +1,4 @@
-/*!
 
- =========================================================
- * Vue Black Dashboard PRO - v1.2.1
- =========================================================
-
- * Product Page: https://www.creative-tim.com/product/material-kit-pro
- * Copyright 2019Binary Omen(https://www.creative-tim.com)
-
- * Coded by Binary Omen
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
- */
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 import RouterPrefetch from 'vue-router-prefetch'
