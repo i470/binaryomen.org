@@ -90,7 +90,7 @@
             <div class="copyright">
               &copy; {{ year }}, made with
               <i class="tim-icons icon-heart-2"></i> by
-              <a href="https://binaryomen.com" target="_blank">BinarCode</a> and
+              <a href="https://binaryomen.com" target="_blank">Binary Omen</a> and
               <a
                 href="https://www.creative-tim.com/?ref=pdf-vuejs"
                 target="_blank"
