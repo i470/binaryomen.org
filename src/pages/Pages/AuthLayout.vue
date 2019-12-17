@@ -62,7 +62,7 @@
                     rel="noopener"
                     class="nav-link"
                   >
-                    Creative Tim
+                    Binary Omen
                   </a>
                 </li>
                 <li class="nav-item">
@@ -90,12 +90,12 @@
             <div class="copyright">
               &copy; {{ year }}, made with
               <i class="tim-icons icon-heart-2"></i> by
-              <a href="https://binarcode.com" target="_blank">BinarCode</a> and
+              <a href="https://binaryomen.com" target="_blank">Binary Omen</a> and
               <a
                 href="https://www.creative-tim.com/?ref=pdf-vuejs"
                 target="_blank"
                 rel="noopener"
-                >Creative Tim</a
+                >Binary Omen</a
               >
               for a better web.
             </div>

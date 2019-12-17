@@ -7,7 +7,7 @@
  * Product Page: https://www.creative-tim.com/product/material-kit-pro
  * Copyright 2019Binary Omen(https://www.creative-tim.com)
 
- * Coded by Creative Tim
+ * Coded by Binary Omen
 
  =========================================================
 
