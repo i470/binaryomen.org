@@ -57,7 +57,7 @@
               <ul class="nav">
                 <li class="nav-item">
                   <a
-                    href="https://www.creative-tim.com"
+                    href="https://www.binaryomen.org"
                     target="_blank"
                     rel="noopener"
                     class="nav-link"
@@ -67,7 +67,7 @@
                 </li>
                 <li class="nav-item">
                   <a
-                    href="http://presentation.creative-tim.com"
+                    href="http://presentation.binaryomen.org"
                     target="_blank"
                     rel="noopener"
                     class="nav-link"
@@ -77,7 +77,7 @@
                 </li>
                 <li class="nav-item">
                   <a
-                    href="http://blog.creative-tim.com"
+                    href="http://blog.binaryomen.org"
                     target="_blank"
                     rel="noopener"
                     class="nav-link"
@@ -92,7 +92,7 @@
               <i class="tim-icons icon-heart-2"></i> by
               <a href="https://binaryomen.com" target="_blank">Binary Omen</a> and
               <a
-                href="https://www.creative-tim.com/?ref=pdf-vuejs"
+                href="https://www.binaryomen.org/?ref=pdf-vuejs"
                 target="_blank"
                 rel="noopener"
                 >Binary Omen</a

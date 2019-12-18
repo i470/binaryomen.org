@@ -79,14 +79,14 @@ export default {
           title: 'Click for Binary Omen',
           start: new Date(y, m, 21),
           end: new Date(y, m, 22),
-          url: 'http://www.creative-tim.com/',
+          url: 'http://www.binaryomen.org/',
           className: 'event-orange'
         },
         {
           title: 'Click for Google',
           start: new Date(y, m, 21),
           end: new Date(y, m, 22),
-          url: 'http://www.creative-tim.com/',
+          url: 'http://www.binaryomen.org/',
           className: 'event-orange'
         }
       ],

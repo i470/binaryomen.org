@@ -109,7 +109,7 @@
               <label class="col-sm-2 col-form-label">Static Control</label>
               <div class="col-sm-10">
                 <base-input>
-                  <p class="form-control-static">hello@creative-tim.com</p>
+                  <p class="form-control-static">hello@binaryomen.org</p>
                 </base-input>
               </div>
             </div>

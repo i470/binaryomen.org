@@ -53,7 +53,7 @@
               <ul class="nav">
                 <li class="nav-item">
                   <a
-                    href="https://www.creative-tim.com"
+                    href="https://www.binaryomen.org"
                     target="_blank"
                     rel="noopener"
                     class="nav-link"
@@ -63,7 +63,7 @@
                 </li>
                 <li class="nav-item">
                   <a
-                    href="http://presentation.creative-tim.com"
+                    href="http://presentation.binaryomen.org"
                     target="_blank"
                     rel="noopener"
                     class="nav-link"
@@ -73,7 +73,7 @@
                 </li>
                 <li class="nav-item">
                   <a
-                    href="http://blog.creative-tim.com"
+                    href="http://blog.binaryomen.org"
                     target="_blank"
                     rel="noopener"
                     class="nav-link"

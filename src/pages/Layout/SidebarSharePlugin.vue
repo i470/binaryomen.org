@@ -42,7 +42,7 @@
 
         <li class="button-container mt-4">
           <a
-            href="https://demos.creative-tim.com/vue-black-dashboard-pro/documentation"
+            href="https://demos.binaryomen.org/vue-black-dashboard-pro/documentation"
             target="_blank"
             rel="noopener"
             class="btn btn-default btn-block btn-round"
@@ -50,7 +50,7 @@
             Documentation
           </a>
           <a
-            href="https://creative-tim.com/product/vue-black-dashboard-pro"
+            href="https://binaryomen.org/product/vue-black-dashboard-pro"
             target="_blank"
             rel="noopener"
             class="btn btn-primary btn-block btn-round"
@@ -58,7 +58,7 @@
             Buy for $59
           </a>
           <a
-            href="https://demos.creative-tim.com/vue-black-dashboard"
+            href="https://demos.binaryomen.org/vue-black-dashboard"
             target="_blank"
             rel="noopener"
             class="btn btn-info btn-block btn-round"

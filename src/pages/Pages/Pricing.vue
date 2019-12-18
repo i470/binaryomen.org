@@ -23,8 +23,8 @@
             <li class="list-group-item">24/7 Support</li>
           </ul>
           <div class="card-prices">
-            <h3 class="text-on-front"><span>$</span>95</h3>
-            <h5 class="text-on-back">95</h5>
+            <h3 class="text-on-front"><span>$</span>0.99</h3>
+            <h5 class="text-on-back">0.99</h5>
             <p class="plan">Professional plan</p>
           </div>
           <base-button slot="footer" round type="primary" class="btn-just-icon">
@@ -47,8 +47,8 @@
             <li class="list-group-item">24/7 Support</li>
           </ul>
           <div class="card-prices">
-            <h3 class="text-on-front"><span>$</span>57</h3>
-            <h5 class="text-on-back">57</h5>
+            <h3 class="text-on-front"><span>$</span>0.99</h3>
+            <h5 class="text-on-back">0.99</h5>
             <p class="plan">Basic plan</p>
           </div>
 
@@ -72,8 +72,8 @@
             <li class="list-group-item">24/7 Support</li>
           </ul>
           <div class="card-prices">
-            <h3 class="text-on-front"><span>$</span>72</h3>
-            <h5 class="text-on-back">72</h5>
+            <h3 class="text-on-front"><span>$</span>0.99</h3>
+            <h5 class="text-on-back">0.99</h5>
             <p class="plan">Medium plan</p>
           </div>
 
@@ -96,8 +96,8 @@
             <li class="list-group-item">No Support</li>
           </ul>
           <div class="card-prices">
-            <h3 class="text-on-front"><span>$</span>9</h3>
-            <h5 class="text-on-back">9</h5>
+            <h3 class="text-on-front"><span>$</span>0.99</h3>
+            <h5 class="text-on-back">0.99</h5>
             <p class="plan">Trial plan</p>
           </div>
 
