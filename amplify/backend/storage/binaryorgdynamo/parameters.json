@@ -1,0 +1,7 @@
+{
+    "tableName": "botable",
+    "partitionKeyName": "pk",
+    "partitionKeyType": "S",
+    "sortKeyName": "sk",
+    "sortKeyType": "S"
+}

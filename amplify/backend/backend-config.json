@@ -8,13 +8,42 @@
 	"auth": {
 		"cognitoc6fdd1a2": {
 			"service": "Cognito",
-			"providerPlugin": "awscloudformation"
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
 		}
 	},
 	"analytics": {
 		"binaryomen": {
 			"service": "Pinpoint",
 			"providerPlugin": "awscloudformation"
+		}
+	},
+	"storage": {
+		"binaryomenuserstorage": {
+			"service": "S3",
+			"providerPlugin": "awscloudformation"
+		},
+		"binaryorgdynamo": {
+			"service": "DynamoDB",
+			"providerPlugin": "awscloudformation"
+		}
+	},
+	"function": {
+		"binaryorgdynamoTriggeref1fed7f": {
+			"service": "Lambda",
+			"providerPlugin": "awscloudformation",
+			"build": true,
+			"dependsOn": [
+				{
+					"category": "storage",
+					"resourceName": "binaryorgdynamo",
+					"attributes": [
+						"Name",
+						"Arn",
+						"StreamArn"
+					]
+				}
+			]
 		}
 	}
 }

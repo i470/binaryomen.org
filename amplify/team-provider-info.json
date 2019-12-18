@@ -13,7 +13,9 @@
         },
         "categories": {
             "auth": {
-                "cognitoc6fdd1a2": {}
+                "cognitoc6fdd1a2": {
+                    "hostedUIProviderCreds": "[{\"ProviderName\":\"Google\",\"client_id\":\"\\t\",\"client_secret\":\"\\t\"}]"
+                }
             }
         }
     }
