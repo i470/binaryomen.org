@@ -7,7 +7,7 @@
             <i class="tim-icons icon-wifi"></i>
           </div>
           <div class="description">
-            <h3 class="info-title">Digital Marketing</h3>
+            <h3 class="info-title">Digital Marketing Data</h3>
             <p class="description">
               We've created the digital marketing automation software designed for social ad analysts, account managers and seo experts.
             </p>
@@ -31,7 +31,7 @@
           <div class="description">
             <h3 class="info-title">Built Audience</h3>
             <p class="description">
-              There is also a Fully Customizable Admin Dashboard and Team managment.
+              There is also a Fully Customizable Admin Dashboard, Team managment and task AI automation.
             </p>
           </div>
         </div>

@@ -7,10 +7,10 @@
       <div class="block block-three"></div>
       <div class="block block-four"></div>
       <a href="javascript:void(0)">
-        <img class="avatar" src="img/emilyz.jpg" alt="..." />
-        <h5 class="title">Mike Andrew</h5>
+        <img class="avatar" src="img/inga-bemman.png" alt="..." />
+        <h5 class="title">Inga Bemman</h5>
       </a>
-      <p class="description">Ceo/Co-Founder</p>
+      <p class="description">CTO/Co-Founder</p>
     </div>
     <p></p>
     <div class="card-description">
