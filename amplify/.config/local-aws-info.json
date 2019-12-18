@@ -3,5 +3,10 @@
         "configLevel": "project",
         "useProfile": true,
         "profileName": "binaryomen.org"
+    },
+    "master": {
+        "configLevel": "project",
+        "useProfile": true,
+        "profileName": "binaryomen.org"
     }
 }

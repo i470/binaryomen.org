@@ -2,9 +2,11 @@
 
 const awsmobile = {
     "aws_project_region": "us-east-1",
-    "aws_content_delivery_bucket": "binaryomenorg-20191217132648-hostingbucket-dev",
-    "aws_content_delivery_bucket_region": "us-east-1",
-    "aws_content_delivery_url": "https://d2pz08zjhzr163.cloudfront.net"
+    "aws_cognito_identity_pool_id": "us-east-1:803e69d2-fd53-4cf9-bfdc-ecc9b8563332",
+    "aws_cognito_region": "us-east-1",
+    "oauth": {},
+    "aws_mobile_analytics_app_id": "c6707e771d97439a946775a6aa876a21",
+    "aws_mobile_analytics_app_region": "us-east-1"
 };
 
 

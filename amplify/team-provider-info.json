@@ -1,0 +1,20 @@
+{
+    "master": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-binaryomenorg-master-215500-authRole",
+            "UnauthRoleArn": "arn:aws:iam::851182499835:role/amplify-binaryomenorg-master-215500-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::851182499835:role/amplify-binaryomenorg-master-215500-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-binaryomenorg-master-215500-deployment",
+            "UnauthRoleName": "amplify-binaryomenorg-master-215500-unauthRole",
+            "StackName": "amplify-binaryomenorg-master-215500",
+            "StackId": "arn:aws:cloudformation:us-east-1:851182499835:stack/amplify-binaryomenorg-master-215500/2af7c980-214a-11ea-9490-12b94cd95a93",
+            "AmplifyAppId": "d1mqdwmp1julyz"
+        },
+        "categories": {
+            "auth": {
+                "cognitoc6fdd1a2": {}
+            }
+        }
+    }
+}

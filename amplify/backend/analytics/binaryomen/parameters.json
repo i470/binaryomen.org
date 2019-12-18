@@ -1,0 +1,20 @@
+{
+    "appName": "binaryomen",
+    "roleName": "pinpointLambdaRole2e85687b",
+    "cloudWatchPolicyName": "cloudWatchPolicy2e85687b",
+    "pinpointPolicyName": "pinpointPolicy2e85687b",
+    "authPolicyName": "pinpoint_amplify_2e85687b",
+    "unauthPolicyName": "pinpoint_amplify_2e85687b",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}
