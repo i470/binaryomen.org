@@ -7,10 +7,9 @@
             <i class="tim-icons icon-wifi"></i>
           </div>
           <div class="description">
-            <h3 class="info-title">Marketing</h3>
+            <h3 class="info-title">Digital Marketing</h3>
             <p class="description">
-              We've created the marketing campaign of the website. It was a very
-              interesting collaboration.
+              We've created the digital marketing automation software designed for social ad analysts, account managers and seo experts.
             </p>
           </div>
         </div>
@@ -19,10 +18,9 @@
             <i class="tim-icons icon-triangle-right-17"></i>
           </div>
           <div class="description">
-            <h3 class="info-title">Fully Coded in HTML5</h3>
+            <h3 class="info-title">Full Support</h3>
             <p class="description">
-              We've developed the website with HTML5 and CSS3. The client has
-              access to the code using GitHub.
+              We've developed this software with full support in mind and price that doesn't bite and 0$ cost if your business is having a rainy day. We all do
             </p>
           </div>
         </div>
@@ -33,8 +31,7 @@
           <div class="description">
             <h3 class="info-title">Built Audience</h3>
             <p class="description">
-              There is also a Fully Customizable CMS Admin Dashboard for this
-              product.
+              There is also a Fully Customizable Admin Dashboard and Team managment.
             </p>
           </div>
         </div>
