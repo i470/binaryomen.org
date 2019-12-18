@@ -18,13 +18,13 @@
           <h1 class="card-title">pro</h1>
           <img class="card-img" src="img/card-primary.png" alt="Image" />
           <ul class="list-group">
-            <li class="list-group-item">300 messages</li>
-            <li class="list-group-item">150 emails</li>
+            <li class="list-group-item">300 reports</li>
+            <li class="list-group-item">150 data connections</li>
             <li class="list-group-item">24/7 Support</li>
           </ul>
           <div class="card-prices">
-            <h3 class="text-on-front"><span>$</span>0.99</h3>
-            <h5 class="text-on-back">0.99</h5>
+            <h3 class="text-on-front"><span>$</span>2.99</h3>
+            <h5 class="text-on-back">1.99</h5>
             <p class="plan">Professional plan</p>
           </div>
           <base-button slot="footer" round type="primary" class="btn-just-icon">
@@ -42,8 +42,8 @@
           <h1 class="card-title">basic</h1>
           <img class="card-img" src="img/card-success.png" alt="Image" />
           <ul class="list-group">
-            <li class="list-group-item">50 messages</li>
-            <li class="list-group-item">100 emails</li>
+            <li class="list-group-item">50 reports</li>
+            <li class="list-group-item">100 data connections</li>
             <li class="list-group-item">24/7 Support</li>
           </ul>
           <div class="card-prices">
@@ -67,13 +67,13 @@
           <h1 class="card-title">mid</h1>
           <img class="card-img" src="img/card-warning.png" alt="Image" />
           <ul class="list-group">
-            <li class="list-group-item">200 messages</li>
-            <li class="list-group-item">130 emails</li>
+            <li class="list-group-item">200 reports</li>
+            <li class="list-group-item">130 data connections</li>
             <li class="list-group-item">24/7 Support</li>
           </ul>
           <div class="card-prices">
-            <h3 class="text-on-front"><span>$</span>0.99</h3>
-            <h5 class="text-on-back">0.99</h5>
+            <h3 class="text-on-front"><span>$</span>1.99</h3>
+            <h5 class="text-on-back">1.99</h5>
             <p class="plan">Medium plan</p>
           </div>
 
@@ -91,13 +91,13 @@
           <h1 class="card-title">trial</h1>
           <img class="card-img" src="img/card-danger.png" alt="Image" />
           <ul class="list-group">
-            <li class="list-group-item">50 messages</li>
-            <li class="list-group-item">50 emails</li>
+            <li class="list-group-item">50 reports</li>
+            <li class="list-group-item">50 data connections</li>
             <li class="list-group-item">No Support</li>
           </ul>
           <div class="card-prices">
-            <h3 class="text-on-front"><span>$</span>0.99</h3>
-            <h5 class="text-on-back">0.99</h5>
+            <h3 class="text-on-front"><span>$</span>0.00</h3>
+            <h5 class="text-on-back">0.00</h5>
             <p class="plan">Trial plan</p>
           </div>
 
