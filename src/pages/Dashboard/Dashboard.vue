@@ -6,7 +6,7 @@
         <template slot="header">
           <div class="row">
             <div class="col-sm-6" :class="isRTL ? 'text-right' : 'text-left'">
-              <h5 class="card-category">Total shipments</h5>
+              <h5 class="card-category">Total reach</h5>
               <h2 class="card-title">Performance</h2>
             </div>
             <div class="col-sm-6 d-flex d-sm-block">
@@ -67,7 +67,7 @@
     <div class="col-lg-4" :class="{ 'text-right': isRTL }">
       <card type="chart">
         <template slot="header">
-          <h5 class="card-category">Total Shipments</h5>
+          <h5 class="card-category">Total Reach</h5>
           <h3 class="card-title">
             <i class="tim-icons icon-bell-55 text-primary "></i> 763,215
           </h3>
