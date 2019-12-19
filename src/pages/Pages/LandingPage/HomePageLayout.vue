@@ -7,11 +7,12 @@
       menu-classes="justify-content-end"
       class="auth-navbar fixed-top"
     >
-      <div slot="brand" class="navbar-wrapper">
-        <a class="navbar-brand" href="/Home" >Cryptodeveloper</a>
-      </div>
     
-      <!--<ul class="navbar-nav">
+      <div slot="brand" class="navbar-wrapper">
+        <a class="navbar-brand" href="/Home">Cryptodeveloper</a>
+      </div>
+      <!--
+      <ul class="navbar-nav">
         <router-link class="nav-item" tag="li" to="/dashboard">
           <a class="nav-link text-primary">
             <i class="tim-icons icon-minimal-left"></i> Back to Dashboard
@@ -34,58 +35,57 @@
         </router-link>
       </ul>-->
     </base-nav>
+    
 
     <div class="wrapper wrapper-full-page">
+     <img src="img/card-primary.png" alt="binaryomen" class="imgWrapperTopRight"/>
       <div class="full-page" :class="pageClass">
         <div class="content">
-          <zoom-center-transition
-            :duration="pageTransitionDuration"
-            mode="out-in"
-          >
+          <zoom-center-transition :duration="pageTransitionDuration" mode="out-in">
             <router-view></router-view>
           </zoom-center-transition>
-        </div>
+        </div> 
         <footer class="footer">
-            
           <div class="container-fluid">
-              <!--
+            <img src="img/card-primary.png" alt="binaryomen" class="imgWrapperBottom"/>
+              <h4>Address:</h4>
+              <p>
+                333 N Pennington Dr
+                Chandler, 85224
+                USA
+              </p>
+              <h4 class="mt-3">Contact:</h4>
+              <p>ingamx@gmail.com</p>
+            
             <nav>
               <ul class="nav">
                 <li class="nav-item">
                   <a
-                    href="https://www.binaryomen.org"
+                    href="https://www.facebook.com/"
                     target="_blank"
                     rel="noopener"
                     class="nav-link"
-                  >
-                    Creative Tim
-                  </a>
+                  ><i class="fab fa-facebook" style="font-size:24px"></i></a>
                 </li>
                 <li class="nav-item">
                   <a
-                    href="http://presentation.binaryomen.org"
+                    href="http://www.twitter.com"
                     target="_blank"
                     rel="noopener"
                     class="nav-link"
-                  >
-                    About Us
-                  </a>
+                  ><i class="fab fa-twitter-square" style="font-size:24px"></i></a>
                 </li>
                 <li class="nav-item">
                   <a
-                    href="http://blog.binaryomen.org"
+                    href="http://www.linkedin.com"
                     target="_blank"
                     rel="noopener"
                     class="nav-link"
-                  >
-                    Blog
-                  </a>
+                  ><i class="fab fa-linkedin" style="font-size:24px"></i></a>
                 </li>
               </ul>
-            </nav>-->
-            <div class="copyright">
-              &copy; {{ year }}, made by cryptodeveloper
-            </div>
+            </nav>
+            <div class="copyright">&copy; {{ year }}, made by cryptodeveloper</div>
           </div>
         </footer>
       </div>
@@ -93,8 +93,8 @@
   </div>
 </template>
 <script>
-import { BaseNav } from 'src/components';
-import { ZoomCenterTransition } from 'vue2-transitions';
+import { BaseNav } from "src/components";
+import { ZoomCenterTransition } from "vue2-transitions";
 
 export default {
   components: {
@@ -104,36 +104,20 @@ export default {
   props: {
     backgroundColor: {
       type: String,
-      default: 'black'
+      default: "black"
     }
   },
   data() {
     return {
-      
       showMenu: false,
       menuTransitionDuration: 250,
       pageTransitionDuration: 200,
       year: new Date().getFullYear(),
-      pageClass: 'login-page'
+      pageClass: "login-page"
     };
   },
 
-  methods: {
-    toggleNavbar() {
-      document.body.classList.toggle('nav-open');
-      this.showMenu = !this.showMenu;
-    },
-    closeMenu() {
-      document.body.classList.remove('nav-open');
-      this.showMenu = false;
-    },
-    setPageClass() {
-      this.pageClass = `${this.$route.name}-page`.toLowerCase();
-    }
-  },
-  beforeDestroy() {
-    this.closeMenu();
-  },
+  methods: {},
   beforeRouteUpdate(to, from, next) {
     // Close the mobile menu first then transition to next page
     if (this.showMenu) {
@@ -145,14 +129,8 @@ export default {
       next();
     }
   },
-  mounted() {
-    this.setPageClass();
-  },
-  watch: {
-    $route() {
-      this.setPageClass();
-    }
-  }
+  mounted() {},
+  watch: {}
 };
 </script>
 <style lang="scss">
@@ -175,17 +153,29 @@ $scaleSize: 0.8;
   animation-name: zoomIn8;
 }
 
-@keyframes zoomOut8 {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-    transform: scale3d($scaleSize, $scaleSize, $scaleSize);
-  }
-}
-
 .wrapper-full-page .zoomOut {
   animation-name: zoomOut8;
 }
+
+.imgWrapperBottom {
+    height: 100%;
+    border-radius: 0;
+    z-index: -1;
+    transform: rotateX(180deg);
+    position: absolute;
+	bottom: 0%;
+	left: 0;
+}
+.imgWrapperTopRight {
+   max-height: 35%;
+    max-width: 35%;
+    border-radius: 0;
+    //z-index: -1;
+    transform: rotateY(180deg);
+    position: absolute;
+	top: 0%;
+	right: 0;
+}
+
+
 </style>
