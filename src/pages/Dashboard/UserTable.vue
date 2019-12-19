@@ -93,7 +93,7 @@ export default {
           name: 'Jana Monday',
           job: 'Marketing',
           progress: 50,
-          salary: '€ 49,990'
+          salary: '$ 49,990'
         },
         {
           id: 5,
@@ -101,7 +101,7 @@ export default {
           name: 'Paul Dickens',
           job: 'Develop',
           progress: 100,
-          salary: '€ 69,201'
+          salary: '$ 69,201'
         },
         {
           id: 6,
