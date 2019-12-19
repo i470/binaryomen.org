@@ -105,7 +105,7 @@ export default {
         },
         {
           id: 6,
-          img: 'img/inga-bemman.png',
+          img: 'img/inga-bemman.PNG',
           name: 'Manuela Rico',
           job: 'Manager',
           progress: 15,

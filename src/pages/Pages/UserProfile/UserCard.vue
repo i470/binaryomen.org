@@ -7,7 +7,7 @@
       <div class="block block-three"></div>
       <div class="block block-four"></div>
       <a href="javascript:void(0)">
-        <img class="avatar" src="img/inga-bemman.png" alt="..." />
+        <img class="avatar" src="img/inga-bemman.PNG" alt="..." />
         <h5 class="title">Inga Bemman</h5>
       </a>
       <p class="description">CTO/Co-Founder</p>

@@ -2,7 +2,7 @@
   <div class="container">
     <div class="col-lg-4 col-md-6 ml-auto mr-auto">
       <card class="card-lock card-white text-center">
-        <img slot="header" src="img/inga-bemman.png" alt="..." />
+        <img slot="header" src="img/inga-bemman.PNG" alt="..." />
 
         <h4 class="card-title">Binary Omen</h4>
         <base-input
