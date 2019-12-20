@@ -170,7 +170,7 @@ $scaleSize: 0.8;
    max-height: 35%;
     max-width: 35%;
     border-radius: 0;
-    //z-index: -1;
+    z-index: 11;
     transform: rotateY(180deg);
     position: absolute;
 	top: 0%;

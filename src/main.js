@@ -1,8 +1,9 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import RouterPrefetch from 'vue-router-prefetch'
+import RouterPrefetch from 'vue-router-prefetch';
 import DashboardPlugin from './plugins/dashboard-plugin';
 import App from './App.vue';
+import VueTypedJs from 'vue-typed-js';
 
 
 // router setup
@@ -13,6 +14,7 @@ import './registerServiceWorker'
 Vue.use(DashboardPlugin);
 Vue.use(VueRouter);
 Vue.use(RouterPrefetch);
+Vue.use(VueTypedJs);
 
 
 /* eslint-disable no-new */
