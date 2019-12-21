@@ -1,7 +1,6 @@
 <template>
   <div  class="text-style">
     <base-nav
-      v-model="showMenu"
       type="white"
       :transparent="true"
       menu-classes="justify-content-end"
@@ -15,13 +14,11 @@
         
       </div>
     </base-nav>
-    
-
     <div class="wrapper wrapper-full-page">
      <img src="img/card-primary.png" alt="binaryomen" class="imgWrapperTopRight"/>
-      <div class="full-page" :class="pageClass">
+      <div class="full-page">
         <div class="content">
-          <zoom-center-transition :duration="pageTransitionDuration" mode="out-in">
+          <zoom-center-transition mode="out-in">
             <router-view></router-view>
           </zoom-center-transition>
         </div> 
@@ -89,11 +86,7 @@ export default {
   },
   data() {
     return {
-      showMenu: false,
-      menuTransitionDuration: 250,
-      pageTransitionDuration: 200,
       year: new Date().getFullYear(),
-      pageClass: "login-page"
     };
   },
 
@@ -160,6 +153,12 @@ $scaleSize: 0.8;
   font-family: 'Press Start 2P', cursive !important;
 }
 
+i.fab.fa-linkedin, i.fab.fa-twitter-square, i.fab.fa-facebook {
+
+  &:hover {
+  color: #6316de;
+  }
+}
 
 
 </style>
