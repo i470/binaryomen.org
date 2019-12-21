@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div  class="text-style">
     <base-nav
       v-model="showMenu"
       type="white"
@@ -9,31 +9,11 @@
     >
     
       <div slot="brand" class="navbar-wrapper">
-        <a class="navbar-brand" href="/Home">Cryptodeveloper</a>
+        <a class="navbar-brand" href="/Home">
+          Cryptodeveloper
+        </a>
+        
       </div>
-      <!--
-      <ul class="navbar-nav">
-        <router-link class="nav-item" tag="li" to="/dashboard">
-          <a class="nav-link text-primary">
-            <i class="tim-icons icon-minimal-left"></i> Back to Dashboard
-          </a>
-        </router-link>
-        <router-link class="nav-item" tag="li" to="/login">
-          <a class="nav-link">
-            <i class="tim-icons icon-single-02"></i> Login
-          </a>
-        </router-link>
-
-        <router-link class="nav-item" tag="li" to="/pricing">
-          <a class="nav-link"> <i class="tim-icons icon-coins"></i> Pricing </a>
-        </router-link>
-
-        <router-link class="nav-item" tag="li" to="/lock">
-          <a class="nav-link">
-            <i class="tim-icons icon-lock-circle"></i> Lock
-          </a>
-        </router-link>
-      </ul>-->
     </base-nav>
     
 
@@ -158,7 +138,7 @@ $scaleSize: 0.8;
 }
 
 .imgWrapperBottom {
-    height: 100%;
+    height: 30rem;
     border-radius: 0;
     z-index: -1;
     transform: rotateX(180deg);
@@ -176,6 +156,10 @@ $scaleSize: 0.8;
 	top: 0%;
 	right: 0;
 }
+.text-style {
+  font-family: 'Press Start 2P', cursive !important;
+}
+
 
 
 </style>

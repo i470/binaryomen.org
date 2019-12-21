@@ -1,15 +1,21 @@
 <template>
-  <div class="container">
-    <div class="col-lg-12 text-algin-center">
-      <vue-typed-js :strings="['WELCOME TO ^1000 CRYPTO DEVELOPER']">
+  <div class="container text-style">
+    <div class="col-lg-12">
+      <vue-typed-js 
+        :strings="['WELCOME TO ^1000 CRYPTO DEVELOPER']" 
+        :loop="true" 
+        :typeSpeed="60"
+        :backSpeed="40"
+        :showCursor="true"
+        :cursorChar="'____'">
         <h1 class="typing"></h1>
       </vue-typed-js>
       <h2>Bitcoin, Ethereum and other Cryptocurrency Services</h2>
     </div>
     <div class="row">
-      <div class="col-lg-4 col-sm-12">
-        <div class="card" style="width: 18rem;">
-          <img src="img/block.png" class="card-img-top" alt="binaryOmen" />
+      <div class="col-lg-4 col-sm-12 d-flex justify-content-center">
+        <div class="card">
+          <img src="img/energy.jpg" class="card-img-top" alt="binaryOmen" />
           <div class="card-body">
             <h4 class="card-title">Technical Support</h4>
             <p class="card-text">
@@ -19,12 +25,12 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-12">
-        <div class="card" style="width: 18rem;">
+      <div class="col-lg-4 col-sm-12 d-flex justify-content-center">
+        <div class="card card-text-wrapp">
           <img src="img/spaceship.jpg" class="card-img-top" alt="binaryOmen" />
           <div class="card-body">
             <h4 class="card-title">In-Person Or Remote Consultation</h4>
-            <p class="card-text">
+            <p class="card-text ">
               Quick, reliable service available in person, by telephone or Skype worldwide.
               We offer consultation for beginners on account setup, wallet security, research,
               and any general questions you might have about cryptocurrency.
@@ -32,8 +38,8 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-4 col-sm-12">
-        <div class="card" style="width: 18rem;">
+      <div class="col-lg-4 col-sm-12 d-flex justify-content-center">
+        <div class="card">
           <img src="img/fred_g_07.jpg" class="card-img-top" alt="binaryOmen" />
           <div class="card-body">
             <h4 class="card-title">Code and ICO</h4>
@@ -65,4 +71,24 @@
 .card-title {
   color: #e14eca !important;
 }
+
+.text-style {
+  font-family: 'Press Start 2P', cursive !important;
+}
+
+p.card-text {
+  z-index: 2200 !important;
+}
+
+@media screen and (max-width: 600px) {
+  h1{
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+}
+
+
 </style>
