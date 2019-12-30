@@ -270,7 +270,7 @@ let LandingPage = {
 const routes = [
   {
     path: '/',
-    redirect: '/Home',
+    redirect: '/dashboard',
     name: 'Home'
   },
   LandingPage, // only for landingPage
